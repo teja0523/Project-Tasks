@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ctask5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       .container{
+        width: 100%;
+        height: 100vh;
+       
+        display: flex;
+        background-color: rgb(215, 241, 89);
+        }
+       .left{
+        width: 30%;
+        height: 100vh;
+        background-color: rgb(215, 241, 89);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        
+        
+        }
+       .right{
+        width: 60%;
+        height: 100vh;
+        margin-left: 10%;
+       display: flex;
+        flex-direction: column;
+        gap: 3%;
+        color:red;
+        }
+        .navcell{
+            margin-top: 10px;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            background-color: aliceblue;
+            justify-content: center;
+            align-items: center;
+            margin-left: 4%;  
+            border-bottom: 1px solid black;
+        }
+        .black{
+            width: 8%;
+
+            height: 100%;
+            background-color: black;
+        }
+        
+
+       .home,.misuings,.mytown,.Links{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            font-size: 20px;
+            font-weight: 600;
+            color:blue;
+        }
+       .home:hover,.misuings:hover,.about:hover,.contact:hover{
+           color: rgb(88, 126, 160);
+        }
+       .black:hover{
+            background-color: black;
+       }
+       #na1{
+        margin-top: 50px;
+       }
+       h2{
+        margin-top: 50px;
+       }
+       p{
+        margin-top: 30px;
+       }
+       hr{
+        margin-top: 30px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="navcell" id="na1">
+                <div class="home">Home page</div>
+                <div class="black"></div>
+            </div>
+            <div class="navcell">
+                <div class="misuings">musings</div>
+                <div class="black"></div>
+            </div>
+            
+            <div class="navcell">
+                <div class="mytown">My town</div>
+                <div class="black"></div>
+            </div>
+
+            <div class="navcell">
+                <div class="Links">Links</div>
+
+                <div class="black"></div>
+            </div>           
+
+
+        </div>
+        <div class="right">
+                <h1>My first Styled Page</h1>
+
+                <h2> Welcome to my styled page</h2>
+                <p>it lacks images but atleast it has style And it 
+                    <br/>
+                    has links even if they don't go anywhere..</p>
+
+                <p>There should be more here,but i dont know what yet</p>
+
+                <hr>
+                <h2>Made 5 April 2004</h2>
+                <h4>by Myself</h4>
+        </div>
+    </div>
+</body>
+</html>
